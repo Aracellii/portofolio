@@ -51,7 +51,7 @@ function App() {
     <main>
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="Aracelli Z. home">
-          LAR   
+          <img src="/logo.png" alt="Aracelli Z. logo" />
         </a>
 
         <button
