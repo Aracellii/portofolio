@@ -220,7 +220,6 @@ h1 {
 .hero-panel img {
   width: min(78%, 330px);
   align-self: center;
-  filter: saturate(0.2) contrast(1.08);
   opacity: 0.88;
 }
 

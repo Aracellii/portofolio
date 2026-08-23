@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import heroImage from './assets/hero.png'
+import aku from './assets/aku.png'
 import './App.css'
 
 const navItems = ['About', 'Skills', 'Work', 'Experience', 'Contact']
@@ -92,7 +93,7 @@ function App() {
         </div>
 
         <div className="hero-panel" aria-label="Portfolio snapshot">
-          
+          <img src={aku} alt="Luthfi Alaudin Rosyid" />
         </div>
       </section>
 
@@ -185,15 +186,15 @@ function App() {
           <p className="eyebrow">Contact</p>
           <h2>Have an idea or opportunity?</h2>
         </div>
-        <a className="contact-link" href="mailto:hello@example.com">
-          hello@example.com
+        <a className="contact-link" href="mailto:luthfialaudinrosyid@gmail.com">
+          luthfialaudinrosyid@gmail.com
         </a>
       </section>
 
       <footer>
-        <span>(c) 2026 Aracelli Z.</span>
+        <span>(c) 2026 Luthfi Alaudin Rosyid.</span>
         <div>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Aracellii q" target="_blank" rel="noreferrer">
             GitHub
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">
