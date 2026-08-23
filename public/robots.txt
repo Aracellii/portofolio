@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luthfialaudinrosyid.my.id/sitemap.xml
