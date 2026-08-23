@@ -92,21 +92,7 @@ function App() {
         </div>
 
         <div className="hero-panel" aria-label="Portfolio snapshot">
-          <div className="availability">
-            <span />
-            Available for collaboration
-          </div>
-          <img src={heroImage} alt="" />
-          <div className="quick-stats">
-            <div>
-              <strong>04</strong>
-              <span>Focus areas</span>
-            </div>
-            <div>
-              <strong>03</strong>
-              <span>Selected projects</span>
-            </div>
-          </div>
+          
         </div>
       </section>
 
