@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import heroImage from './assets/hero.png'
 import aku from './assets/aku.png'
 import './App.css'
 

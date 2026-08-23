@@ -447,6 +447,10 @@ dd {
   border-bottom: 1px solid var(--line);
 }
 
+.contact > div {
+  min-width: 0;
+}
+
 .contact h2 {
   max-width: 700px;
   margin-bottom: 0;
@@ -456,12 +460,15 @@ dd {
 }
 
 .contact-link {
-  flex: 0 0 auto;
+  max-width: 100%;
+  flex: 0 1 auto;
   border-bottom: 1px solid var(--ink);
   padding-bottom: 8px;
   color: var(--ink);
   font-size: 18px;
   font-weight: 800;
+  overflow-wrap: anywhere;
+  text-align: right;
   text-decoration: none;
 }
 
@@ -623,6 +630,11 @@ footer a {
 
   .contact {
     padding: 72px 0;
+  }
+
+  .contact-link {
+    font-size: 16px;
+    text-align: left;
   }
 
   footer {
