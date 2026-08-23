@@ -200,6 +200,9 @@ function App() {
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
+           <a href="https://instagram/luthfialaudinrasyid.com" target="_blank" rel="noreferrer">
+            Instagram
+          </a>
         </div>
       </footer>
     </main>
