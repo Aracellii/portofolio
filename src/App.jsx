@@ -50,7 +50,7 @@ function App() {
     <main>
       <header className="site-header">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="Aracelli Z. home">
-          AZ
+          LAR   
         </a>
 
         <button
@@ -76,7 +76,7 @@ function App() {
       <section id="home" className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Informatics student and developer</p>
-          <h1>Aracelli Z.</h1>
+          <h1>Luthfi Alaudin Rosyid</h1>
           <p className="intro">
             I design and build polished digital products across web, mobile, and data-driven
             applications.
