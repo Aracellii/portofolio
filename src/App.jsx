@@ -27,7 +27,7 @@ const projects = [
     stack: ['React', 'Vite', 'CSS'],
   },
   {
-    title: 'Project Grafkom',
+    title: 'Vector-Paint-Studio',
     type: 'Desktop application',
     description:
       'A vector drawing application for creating shapes, lines, freehand strokes, text, color fills, and basic object transformations.',
