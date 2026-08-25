@@ -27,6 +27,13 @@ const projects = [
     stack: ['React', 'Vite', 'CSS'],
   },
   {
+    title: 'Project Grafkom',
+    type: 'Desktop application',
+    description:
+      'A vector drawing application for creating shapes, lines, freehand strokes, text, color fills, and basic object transformations.',
+    stack: ['Python', 'PySide6', 'Qt'],
+  },
+  {
     title: 'Mobile Companion',
     type: 'Mobile application',
     description:
