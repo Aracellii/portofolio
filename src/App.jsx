@@ -44,6 +44,14 @@ const projects = [
     stack: ['Flutter', 'Dart', 'REST API'],
     github: 'https://github.com/Aracellii/123230082_Responsi_Mobile',
   },
+  {
+    title: 'SIATK',
+    type: 'Web application',
+    description:
+      'An asset and inventory management system with an item catalog, per-division warehouse stock, multi-step request approvals, activity logging, Excel import/export, and PDF reports.',
+    stack: ['Laravel', 'Filament', 'MySQL', 'PHP'],
+    github: 'https://github.com/Aracellii/Web-Based-Asset-and-Inventory-Request-Management-System',
+  },
 ]
 
 const experience = [
