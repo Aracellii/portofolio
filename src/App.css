@@ -408,6 +408,19 @@ dd {
   padding-top: 34px;
 }
 
+.project-github {
+  margin-top: 14px;
+  align-self: flex-start;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.project-github:hover {
+  text-decoration: underline;
+}
+
 .experience {
   display: grid;
   grid-template-columns: 0.88fr 1.12fr;

@@ -18,6 +18,7 @@ const projects = [
     description:
       'A transaction tracker with categories, summaries, and database-backed records for clearer personal budgeting.',
     stack: ['Java', 'Java Swing', 'MariaDB'],
+    github: 'https://github.com/Aracellii/123230082_Responsi',
   },
   {
     title: 'Portfolio Website',
@@ -25,6 +26,7 @@ const projects = [
     description:
       'A clean personal site for presenting selected work, technical skills, background, and contact details.',
     stack: ['React', 'Vite', 'CSS'],
+    github: 'https://github.com/Aracellii/portofolio',
   },
   {
     title: 'Vector-Paint-Studio',
@@ -32,6 +34,7 @@ const projects = [
     description:
       'A vector drawing application for creating shapes, lines, freehand strokes, text, color fills, and basic object transformations.',
     stack: ['Python', 'PySide6', 'Qt'],
+    github: 'https://github.com/Aracellii/Vector-Paint-Studio',
   },
   {
     title: 'Mobile Companion',
@@ -39,6 +42,7 @@ const projects = [
     description:
       'A mobile interface with authentication, structured screens, and REST API integration for everyday use.',
     stack: ['Flutter', 'Dart', 'REST API'],
+    github: 'https://github.com/Aracellii/123230082_Responsi_Mobile',
   },
 ]
 
@@ -167,6 +171,14 @@ function App() {
                   <span key={item}>{item}</span>
                 ))}
               </div>
+              <a
+                className="project-github"
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View in GitHub
+              </a>
             </article>
           ))}
         </div>
