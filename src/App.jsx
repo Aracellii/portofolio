@@ -220,7 +220,7 @@ function App() {
       <footer>
         <span>(c) 2026 Luthfi Alaudin Rosyid.</span>
         <div>
-          <a href="https://github.com/Aracellii q" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Aracellii" target="_blank" rel="noreferrer">
             GitHub
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">
