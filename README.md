@@ -20,6 +20,8 @@ Sections and project data are defined as constants in `src/App.jsx`:
 - **Skills** — grouped by Frontend, Backend, Mobile, and Data
 - **Work** — selected projects with description, stack, and GitHub links
 - **Experience** — timeline
+- **Related Work** — field experience (Badan Pertanahan Nasional / BPN)
+- **Educations** — UPN "Veteran" Yogyakarta and SMA Negeri 1 Mlati
 - **Contact** — email and social links
 
 © 2026 Luthfi Alaudin Rosyid.

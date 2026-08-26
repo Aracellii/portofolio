@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import aku from './assets/aku.png'
+import bpn from '../assets/BPN.png'
+import mlati from '../assets/Mlati.png'
+import upn from '../assets/UPN.png'
 import './App.css'
 
-const navItems = ['About', 'Skills', 'Work', 'Experience', 'Contact']
+const navItems = ['About', 'Skills', 'Work', 'Experience', 'Related Work', 'Educations', 'Contact']
 
 const skills = [
   { title: 'Frontend', items: ['React', 'Vite', 'JavaScript', 'HTML', 'CSS'] },
@@ -58,6 +61,26 @@ const experience = [
   ['Currently', 'Informatics student focused on web, mobile, and practical software projects.'],
   ['Practice', 'Building interfaces, database-driven apps, and mobile prototypes from concept to delivery.'],
   ['Focus', 'Clean UI, maintainable code, and products that are straightforward to use.'],
+]
+
+const relatedWork = {
+  org: 'Badan Pertanahan Nasional (BPN)',
+  type: 'Government agency',
+  description:
+    'Practical experience supporting land administration workflows and public service processes in a government environment.',
+}
+
+const education = [
+  {
+    school: 'Universitas Pembangunan Nasional "Veteran" Yogyakarta',
+    degree: 'Informatics — Undergraduate',
+    image: upn,
+  },
+  {
+    school: 'SMA Negeri 1 Mlati',
+    degree: 'Senior High School',
+    image: mlati,
+  },
 ]
 
 function App() {
@@ -202,6 +225,39 @@ function App() {
             <article key={label}>
               <span>{label}</span>
               <p>{text}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section id="related-work" className="section-block">
+        <div className="section-heading">
+          <p className="eyebrow">Related work</p>
+          <h2>Field experience beyond the classroom.</h2>
+        </div>
+        <article className="related-card">
+          <img src={bpn} alt="Badan Pertanahan Nasional (BPN) logo" />
+          <div>
+            <p className="related-type">{relatedWork.type}</p>
+            <h3>{relatedWork.org}</h3>
+            <p className="related-description">{relatedWork.description}</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="educations" className="section-block educations">
+        <div className="section-heading compact">
+          <p className="eyebrow">Educations</p>
+          <h2>Where I learned the fundamentals.</h2>
+        </div>
+        <div className="education-list">
+          {education.map((entry) => (
+            <article className="education-card" key={entry.school}>
+              <img src={entry.image} alt={`${entry.school} logo`} />
+              <div>
+                <p>{entry.degree}</p>
+                <h3>{entry.school}</h3>
+              </div>
             </article>
           ))}
         </div>
