@@ -451,43 +451,14 @@ dd {
   line-height: 1.55;
 }
 
-.related-card {
-  margin-top: 52px;
-  display: grid;
-  grid-template-columns: 0.34fr 1fr;
-  gap: clamp(28px, 5vw, 64px);
-  align-items: center;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 32px;
-  background: rgba(255, 255, 255, 0.68);
-}
-
-.related-card img {
-  width: min(100%, 220px);
-  justify-self: center;
-}
-
-.related-type {
-  margin-bottom: 12px;
-  color: var(--accent);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.related-card h3 {
-  margin-bottom: 18px;
-  font-size: 32px;
-  line-height: 1.06;
-}
-
-.related-description {
-  margin-bottom: 0;
+.education-card .related-description {
+  margin: 0;
   color: var(--muted);
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.5;
+  text-transform: none;
 }
 
 .education-list {
@@ -723,14 +694,6 @@ footer a {
 
   .skill-card {
     min-height: 0;
-  }
-
-  .related-card {
-    grid-template-columns: 1fr;
-  }
-
-  .related-card img {
-    width: min(60%, 180px);
   }
 
   .project-card {

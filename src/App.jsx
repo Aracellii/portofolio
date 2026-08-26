@@ -231,18 +231,20 @@ function App() {
       </section>
 
       <section id="related-work" className="section-block">
-        <div className="section-heading">
+        <div className="section-heading compact">
           <p className="eyebrow">Related work</p>
           <h2>Field experience beyond the classroom.</h2>
         </div>
-        <article className="related-card">
-          <img src={bpn} alt="Badan Pertanahan Nasional (BPN) logo" />
-          <div>
-            <p className="related-type">{relatedWork.type}</p>
-            <h3>{relatedWork.org}</h3>
-            <p className="related-description">{relatedWork.description}</p>
-          </div>
-        </article>
+        <div className="education-list">
+          <article className="education-card">
+            <img src={bpn} alt="Badan Pertanahan Nasional (BPN) logo" />
+            <div>
+              <p>{relatedWork.type}</p>
+              <h3>{relatedWork.org}</h3>
+              <p className="related-description">{relatedWork.description}</p>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section id="educations" className="section-block educations">
